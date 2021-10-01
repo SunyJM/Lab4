@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<body>
+  <form>
+    <fieldset>
+    <legend>Your Details:</legend>
+    <label for="Name">Name: </label>
+    <input type="text" name="Name"><br>
+    <label for="Email">Email: </label>
+    <input type="text" name="Email"><br>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>Your Review:</legend>
+      How did you hear about us? <select name="How did you hear about us?" size="1">
+        <option>Google</option>
+        <option>Friends</option>
+        <option>Ads</option>
+        <option>Another Review</option>
+      </select><br>
+      Would you visit us again?<br>
+      <input type="radio" name="visit" value="Yes">Yes<br>
+      <input type="radio" name="visit" value="No">No<br>
+      <input type="radio" name="visit" value="Maybe">Maybe<br><br>
+      Comments:<br>
+      <textarea name="Comments" rows="4" cols="60" maxlength="500" id="form-story" placeholder="500 character limit"></textarea>
+    </fieldset>
+</body>
+</html>
